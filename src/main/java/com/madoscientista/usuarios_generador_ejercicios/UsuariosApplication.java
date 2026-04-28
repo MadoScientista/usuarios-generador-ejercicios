@@ -1,13 +1,13 @@
-package com.api_usuarios.usuarios_generador_ejercicios;
+package com.madoscientista.usuarios_generador_ejercicios;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UsuariosGeneradorEjerciciosApplication {
+public class UsuariosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsuariosGeneradorEjerciciosApplication.class, args);
+		SpringApplication.run(UsuariosApplication.class, args);
 	}
 
 }

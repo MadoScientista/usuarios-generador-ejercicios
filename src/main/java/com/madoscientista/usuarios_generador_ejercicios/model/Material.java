@@ -1,4 +1,4 @@
-package com.api_usuarios.usuarios_generador_ejercicios.model;
+package com.madoscientista.usuarios_generador_ejercicios.model;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -32,7 +32,9 @@ public class Material {
     @OneToMany(mappedBy = "material", orphanRemoval = true)
     public List<Ejercicio> ejercicios;
 
-    @ManyToOne
-    @JoinColumn(name = "idUsuario", nullable = false)
-    private Usuario usuario;
+
+    // Esta entidad será trabajada como un microservicio aparte
+    // @ManyToOne
+    // @JoinColumn(name = "idUsuario", nullable = false)
+    // private Usuario usuario;
 }

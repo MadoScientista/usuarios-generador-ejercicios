@@ -1,4 +1,4 @@
-package com.api_usuarios.usuarios_generador_ejercicios.controller;
+package com.madoscientista.usuarios_generador_ejercicios.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.api_usuarios.usuarios_generador_ejercicios.model.Usuario;
-import com.api_usuarios.usuarios_generador_ejercicios.service.UsuarioService;
+import com.madoscientista.usuarios_generador_ejercicios.model.Usuario;
+import com.madoscientista.usuarios_generador_ejercicios.service.UsuarioService;
 
 @RestController
 @RequestMapping("api/v1/usuarios")

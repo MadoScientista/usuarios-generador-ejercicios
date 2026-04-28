@@ -1,4 +1,4 @@
-package com.api_usuarios.usuarios_generador_ejercicios.model;
+package com.madoscientista.usuarios_generador_ejercicios.model;
 
 import java.util.List;
 

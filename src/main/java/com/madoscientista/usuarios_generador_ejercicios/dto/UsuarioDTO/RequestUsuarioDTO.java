@@ -1,4 +1,4 @@
-package com.api_usuarios.usuarios_generador_ejercicios.dto;
+package com.madoscientista.usuarios_generador_ejercicios.dto.UsuarioDTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

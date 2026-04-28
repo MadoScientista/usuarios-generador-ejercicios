@@ -1,12 +1,12 @@
-package com.api_usuarios.usuarios_generador_ejercicios.service;
+package com.madoscientista.usuarios_generador_ejercicios.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.api_usuarios.usuarios_generador_ejercicios.model.Usuario;
-import com.api_usuarios.usuarios_generador_ejercicios.repository.UsuarioRepository;
+import com.madoscientista.usuarios_generador_ejercicios.model.Usuario;
+import com.madoscientista.usuarios_generador_ejercicios.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {

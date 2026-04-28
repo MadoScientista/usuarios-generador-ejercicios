@@ -1,4 +1,4 @@
-package com.api_usuarios.usuarios_generador_ejercicios.model;
+package com.madoscientista.usuarios_generador_ejercicios.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -27,9 +27,13 @@ public class Ejercicio {
     private long idPlantillaEnunciado;
     private String enunciado;
 
-    @ManyToOne
-    @JoinColumn(name = "idMaterial", nullable = false)
-    private Material material;
+
+    // Separaré el material en un microservicio aparte
+    // Yo creo lo usaré como material público pero con id del usuario que lo creó
+    
+    // @ManyToOne
+    // @JoinColumn(name = "idMaterial", nullable = false)
+    // private Material material;
 
     @ManyToOne
     @JoinColumn(name = "idUsuario", nullable = false)
